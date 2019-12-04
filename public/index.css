@@ -1,0 +1,44 @@
+body {
+    border-style:inset;
+    width:400px;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+.screen{
+    background-color: white;
+    height:5vh;
+    margin:0;
+    padding:0;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+}
+
+.btn {
+   flex: 1;
+   margin:5px;
+   border-radius: 4px;
+   user-select:none;
+   outline: none;
+   background-color:white;
+   height:50px
+  
+}
+
+.btn.btn-dark{
+    background-color: #e2e4e6;
+}
+.btn-primary {
+    background-color: #329bef;
+}
